@@ -20,7 +20,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
     RootTableViewController *rootVC = [[RootTableViewController alloc] init];
     UINavigationController *rootNC = [[UINavigationController alloc] initWithRootViewController:rootVC];
     self.window.rootViewController = rootNC;
